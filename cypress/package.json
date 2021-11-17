@@ -1,0 +1,23 @@
+{
+  "devDependencies": {
+    "cypress": "^9.0.0",
+    "cypress-mailosaur": "^2.4.0"
+  },
+  "name": "mailosaur-cypress-sample",
+  "version": "1.0.0",
+  "description": "Example of Mailosaur working with Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mailosaur/samples.git"
+  },
+  "author": "Mailosaur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mailosaur/samples/issues"
+  },
+  "homepage": "https://github.com/mailosaur/samples#readme"
+}

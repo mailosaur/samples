@@ -1,0 +1,29 @@
+{
+  "devDependencies": {
+    "@wdio/cli": "^7.16.7",
+    "@wdio/local-runner": "^7.16.7",
+    "@wdio/mocha-framework": "^7.16.6",
+    "@wdio/spec-reporter": "^7.16.4",
+    "chromedriver": "^95.0.0",
+    "wdio-chromedriver-service": "^7.2.2",
+    "mailosaur": "^7.5.0"
+  },
+  "name": "mailosaur-webdriverio-sample",
+  "version": "1.0.0",
+  "description": "Example of Mailosaur working with WebdriverIO",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run wdio",
+    "wdio": "wdio run wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mailosaur/samples.git"
+  },
+  "author": "Mailosaur",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mailosaur/samples/issues"
+  },
+  "homepage": "https://github.com/mailosaur/samples#readme"
+}
