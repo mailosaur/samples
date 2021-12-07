@@ -1,7 +1,7 @@
 /// <reference types="cypress" />
 
 describe('Password reset', () => {
-  it('displays two todo items by default', () => {
+  it('performs a password reset', () => {
     const mailosaurServerId = 'YOUR_SERVER_ID'
     const mailosaurServerDomain = `${mailosaurServerId}.mailosaur.net`
 
