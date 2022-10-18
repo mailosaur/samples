@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Test;
 
 import java.io.IOException;
 
-public class TheTest {
+public class EmailExample {
     @Test
-    void justAnExample() throws MailosaurException, IOException {
+    void simple() throws MailosaurException, IOException {
         String apiKey = "YOUR_API_KEY";
         String serverId = "YOUR_SERVER_ID";
 
