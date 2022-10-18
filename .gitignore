@@ -15,3 +15,8 @@ lerna-debug.log*
 
 # Rider
 .idea
+
+.DS_Store
+Thumbs.db
+
+target/
